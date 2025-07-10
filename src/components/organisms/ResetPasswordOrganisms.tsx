@@ -69,7 +69,7 @@ const ResetPasswordOragnisms = () => {
 
                 <InputGroup onChange={handleInput} value={userData.repeatPass} error={userDataError.repeatPass} labelName="Repeat Password" type="password" name="repeatPass" />
 
-                <ButtonGroup onClick={validateReset} buttonName="Sign Up" type="button" />
+                <ButtonGroup onClick={validateReset} buttonName="Reset Password" type="button" />
                 
             </form>
         </Col>

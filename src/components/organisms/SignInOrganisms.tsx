@@ -67,7 +67,7 @@ const SignInOrganisms = () => {
 
                 <InputGroup onChange={handleInput} value={userData.pass} error={userDataError.pass} labelName="Password" type="password" name="pass" />
 
-                <ButtonGroup onClick={validateSignIn} buttonName="Sign Up" type="button" />
+                <ButtonGroup onClick={validateSignIn} buttonName="Sign In" type="button" />
 
                 <RedirectGroup context="Forgot Password?" linkName="Click here" linkUrl="/resetpassword" />
 
