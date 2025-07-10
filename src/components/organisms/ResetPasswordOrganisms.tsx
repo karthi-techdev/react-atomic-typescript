@@ -5,7 +5,7 @@ import { ButtonGroup } from "../molecules/ButtonGroup"
 import { MainGroup } from "../molecules/MainGroup"
 import { useState } from "react"
 
-const ResetPasswordOragnisms = () => {
+const ResetPasswordOrganisms = () => {
   type FormData = {
     setPass: string,
     repeatPass: string,
@@ -77,4 +77,4 @@ const ResetPasswordOragnisms = () => {
   )
 }
 
-export default ResetPasswordOragnisms
+export default ResetPasswordOrganisms
